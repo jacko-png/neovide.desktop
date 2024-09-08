@@ -51,8 +51,8 @@ To configure the opening of files via [xdg-open(1)](https://linux.die.net/man/1/
 
 That's kind of the extent of the use of this file…
 
-Advance usage
--------------
+Advanced usage
+--------------
 
 System adminstrators may want to restrict the installation to a particular user, or install the entry and icon globally. A way to install the file per-user using make would be: `# su <USER> make install`. For global installation, `# make install-sys` copies the files to the system directories, `/usr/share/applications` and `/usr/share/icons`.
 
