@@ -1,0 +1,9 @@
+# MacOS
+**/.DS_Store
+
+# Build
+target/
+*.lock
+
+# Other temp files
+**/nohup.out
